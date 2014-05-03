@@ -1,17 +1,86 @@
-<div class="row">
-  <section class="col col-xs-4" ng-controller="UserCtrl">
-    <h1>Users</h1>
-    <p>Users go here</p>
-    <ul>
-      <li ng-repeat="user in users">{{user.firstName}}</li>
+  <div class="col-xs-4  col-full-height" ng-controller="UserCtrl">
+    <div class="list-header clearfix">
+      <h4 class="pull-left">Users</h4>
+
+      <button id="editUsersBtn"
+          class="btn btn-primary pull-right has-tooltip"
+          data-bind="visible: selectionType() === 'userGroup' && !editingNowType(), click: startEditUsers, attr: {'data-original-title': 'Change which users are members of the \'' + selectedItemName() + '\' group.'}"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          data-container="body"
+          data-delay="300">
+        <span class="glyphicon glyphicon-pencil"></span>
+      </button>
+      <div class="btn-group pull-right" data-bind="visible: editingNowType() === 'user'">
+        <button class="btn btn-danger" data-bind="click: cancelEditUsers">Cancel</button>
+        <button class="btn btn-primary" data-bind="click: saveEditUsers">Save</button>
+      </div>
+
+    </div>
+    <ul id="user-list" class="list-group">
+      <li class="list-group-item selectable" ng-repeat="user in users">
+        <span class="list-group-item-label">{{user.firstName + ' ' + user.lastName}}</span>
+        <span class="glyphicon glyphicon-check pull-right"></span>
+        <span class="glyphicon glyphicon-unchecked pull-right"></span>
+      </li>
     </ul>
+  </div>
+
+  <div class="col-xs-4 col-full-height">
+    <div class="list-header clearfix">
+      <h4 class="pull-left">User Groups</h4>
+      <button id="editUserGroupsBtn"
+          class="btn btn-primary pull-right has-tooltip"
+          data-bind="visible: selectionType() === 'user' && !editingNowType(), click: startEditUserGroups, attr: {'data-original-title': 'Change which user groups ' + selectedItemName() + ' is a member of.'}"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          data-container="body"
+          data-delay="300">
+        <span class="glyphicon glyphicon-pencil"></span>
+      </button>
+      <div class="btn-group pull-right" data-bind="visible: editingNowType() === 'userGroup'">
+        <button class="btn btn-danger" data-bind="click: cancelEditUserGroups">Cancel</button>
+        <button class="btn btn-primary" data-bind="click: saveEditUserGroups">Save</button>
+      </div>
+    </div>
+    <ul id="user-group-list" class="list-group">
+      <li class="list-group-item selectable" ng-repeat="userGroup in userGroups">
+        <span class="list-group-item-label">{{userGroup.name}}</span>
+        <span class="glyphicon glyphicon-check pull-right"></span>
+        <span class="glyphicon glyphicon-unchecked pull-right"></span>
+      </li>
+    </ul>
+
+    <ul id="access-level-list" class="list-group" data-bind="foreach: accessLevels">
+      <li class="list-group-item">
+        <span class="list-group-item-label" data-bind="text: name"></span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-xs-4 col-full-height">
+    <div class="list-header clearfix">
+      <h4>Secured Objects</h4>
+    </div>
+    <!-- ko with: rootSecObject -->
+      <ul id="sec-object-list" class="list-group" data-bind="template: {name: 'sec-object-template', foreach: children}"></ul>
+    <!-- /ko -->
+  </div>
+
+<!-- <div class="row">
+  <section class="col col-xs-4" ng-controller="UserCtrl">
+  <h1>Users</h1>
+  <p>Users go here</p>
+  <ul>
+    <li ng-repeat="user in users">{{user.firstName}}</li>
+  </ul>
   </section>
   <section class="col col-xs-4">
-    <h1>User Groups</h1>
-    <p>User Groups go here</p>
+  <h1>User Groups</h1>
+  <p>User Groups go here</p>
   </section>
   <section class="col col-xs-4">
-    <h1>Secured Objects</h1>
-    <p>Secured Objects go here</p>
+  <h1>Secured Objects</h1>
+  <p>Secured Objects go here</p>
   </section>
 </div>

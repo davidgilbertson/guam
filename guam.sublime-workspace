@@ -7,6 +7,153 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 2395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/main.html",
+			"settings":
+			{
+				"buffer_size": 3571,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/partials/settings.html",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/api/users.json",
+			"settings":
+			{
+				"buffer_size": 6291,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/api/userGroups.json",
+			"settings":
+			{
+				"buffer_size": 959,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/api/secObjects.json",
+			"settings":
+			{
+				"buffer_size": 3255,
+				"line_ending": "Windows",
+				"name": "["
+			}
+		},
+		{
+			"file": "app/api/userToGroupRels.json",
+			"settings":
+			{
+				"buffer_size": 6191,
+				"line_ending": "Windows",
+				"name": "["
+			}
+		},
+		{
+			"file": "app/api/groupToSecObjectRels.json",
+			"settings":
+			{
+				"buffer_size": 265,
+				"line_ending": "Windows",
+				"name": "["
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 340,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".jshintrc",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1081,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 180,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/package.json",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/unit/controllersSpec.js",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/unit/directivesSpec.js",
+			"settings":
+			{
+				"buffer_size": 521,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/unit/filtersSpec.js",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/unit/servicesSpec.js",
+			"settings":
+			{
+				"buffer_size": 293,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,6 +235,33 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/dev/guam/app/css/app.css",
+		"/C/xampp/htdocs/dev/guam/app/js/services.js",
+		"/C/xampp/htdocs/dev/guam/app/js/filters.js",
+		"/C/xampp/htdocs/dev/guam/app/js/directives.js",
+		"/C/xampp/htdocs/dev/guam/app/js/app.js",
+		"/C/xampp/htdocs/dev/guam/app/js/controllers.js",
+		"/C/xampp/htdocs/dev/guam/app/api/users.json",
+		"/C/xampp/htdocs/dev/guam/app/api/userGroups.json",
+		"/C/Users/David/AppData/Local/Temp/Temp1_bootstrap-3.1.1-dist (1).zip/bootstrap-3.1.1-dist/css/bootstrap.css",
+		"/C/xampp/htdocs/dev/guam/.gitignore",
+		"/C/xampp/htdocs/dev/guam/app/partials/help.html",
+		"/C/xampp/htdocs/dev/guam/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/package.json",
+		"/C/xampp/htdocs/dev/guam/app/js/vendor/angular-mocks.js",
+		"/C/xampp/htdocs/dev/guam/app/js/vendor/angular.js",
+		"/C/xampp/htdocs/dev/guam/bower_components/angular/angular.js",
+		"/C/xampp/htdocs/dev/guam/bower_components/angular-mocks/angular-mocks.js",
+		"/C/xampp/htdocs/dev/guam/bower_components/angular-route/README.md",
+		"/C/xampp/htdocs/dev/guam/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/readme.md",
+		"/C/xampp/htdocs/dev/guam/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/commandable.js",
+		"/C/xampp/htdocs/dev/guam/node_modules/http-server/package.json",
+		"/C/xampp/htdocs/dev/guam/node_modules/http-server/README.md",
+		"/C/xampp/htdocs/dev/guam/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/i/test/inflector/cases.js",
+		"/C/xampp/htdocs/dev/guam/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/package.json",
+		"/C/xampp/htdocs/dev/guam/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/readme.markdown",
+		"/C/xampp/htdocs/dev/guam/app/index-async.html",
+		"/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/index.php",
+		"/C/xampp/htdocs/dev/guam/app/sass/app.scss",
 		"/C/xampp/htdocs/dev/guam/app/index.html",
 		"/C/xampp/htdocs/dev/margin-calc/jasmine/SpecRunner.html",
 		"/C/xampp/htdocs/dev/margin-calc/jasmine/spec/SpecHelper.js",
@@ -146,6 +320,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"<open files>",
 			"<project>"
 		]
 	},
@@ -154,6 +329,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"myApp",
+			"main",
 			".js",
 			"scope",
 			"controller",
@@ -192,6 +369,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"guamApp",
 			"0.3",
 			"2.5"
 		],
@@ -204,8 +382,560 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1857,
+								1857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/partials/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3153,
+								3153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/partials/settings.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "app/api/users.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/api/userGroups.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/api/secObjects.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2564,
+								2564
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2741.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/api/userToGroupRels.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5703,
+								5703
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6971.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/api/groupToSecObjectRels.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".jshintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "test/unit/controllersSpec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "test/unit/directivesSpec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "test/unit/filtersSpec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "test/unit/servicesSpec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -226,16 +956,36 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.571774548657,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.734567901235,
 			1.0
 		]
 	},

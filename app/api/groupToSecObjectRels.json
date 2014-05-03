@@ -1,0 +1,20 @@
+[
+   {
+      "$id":"1",
+      "id":1,
+      "userGroupId":1,
+      "secObjectId":4
+   },
+   {
+      "$id":"2",
+      "id":2,
+      "userGroupId":2,
+      "secObjectId":29
+   },
+   {
+      "$id":"3",
+      "id":3,
+      "userGroupId":11,
+      "secObjectId":7
+   }
+]

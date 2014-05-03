@@ -7,3 +7,102 @@
 body {
   background: white;
 }
+
+.row-full-height {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  bottom: 0px;
+  left: 10px;
+}
+.col-full-height {
+  height: 100%;
+  padding-top: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.list-header h2 {
+  margin-top: 0;
+  /* float: left; */
+}
+.list-header button {
+  float: right;
+}
+
+.list-group-item {
+/*   padding: 0; */
+}
+.list-group-item div {
+  padding: 10px;
+  float: left;
+}
+.list-group-item.selectable {
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.list-group-item.selected {
+    background: #428bca;
+    background-image: linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);
+    border-color: #2b669a;
+}
+.list-group-item.selected > span {
+  color: white;
+}
+.list-group-item.selected + li {
+    border-top-color: #2b669a;
+}
+
+.list-group-item.highlighted {
+    background-color: #d9edf7;
+    background-image: linear-gradient(to bottom,#d9edf7 0,#b9def0 100%);
+    border-color: #9acfea;
+}
+.list-group-item.highlighted + li { /*ensures the bottom border is the right colour*/
+  border-top-color: #9acfea;
+}
+
+.list-group-item-checkbox {
+  width: 10%;
+}
+
+.list-group-item-label {
+  width: 90%;
+}
+
+/*  --  When in edit mode, add a checkbox  --  */
+.list-group span{
+/*   color: red; */
+}
+.list-group .glyphicon {
+  font-size: 16px;
+  color: #777;
+}
+.list-group-item ul {
+  margin: 8px 0 0 0;
+}
+#sec-object-list ul {
+  box-shadow: none;
+}
+/* #sec-object-list li { */
+/*   padding-right: 0; */
+/* } */
+#sec-object-list .list-group-item {
+  padding: 13px 7px 7px 15px;
+}
+#sec-object-list .list-group-item .empty .glyphicon {
+  color: #bbb;
+}
+#sec-object-list li li {
+/*   border-radius: 3px 0 0 3px; */
+  border-radius: 0px;
+  margin-right: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.tree-list-item {
+  padding-left: 12px;
+}
