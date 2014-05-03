@@ -1,0 +1,9 @@
+@import 'variables'; //These need to be overridden before bootstrap is loaded.
+@import 'bootstrap';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}
